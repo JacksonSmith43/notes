@@ -11,7 +11,7 @@ body {
     margin: 5rem 45rem 4rem 45rem;
 }
 
-.title-input {
+#title-input {
     color: black;
     font-family: sans-serif;
     font-weight: bold;
@@ -22,8 +22,9 @@ body {
 
 }
 
-.note-input {
+#note-input {
     border-style: none;
+    font-family: sans-serif;
     margin-top: 1rem;
     padding: 1rem 5rem 4rem 5rem;
     font-size: 1.5rem;
@@ -31,7 +32,7 @@ body {
 }
 
 
-.adds-new-note-container {
+#adds-new-note-button {
     height: 2rem;
     margin-top: 6rem;
     margin-right: 4rem;
@@ -49,11 +50,37 @@ li:nth-child(even) {
     background-color: rgb(186, 182, 182);
 }
 
-.added-notes-list {
+#added-notes-list {
     color: black;
     list-style: none;
+    font-size: 1.5rem;
+    font-family: sans-serif;
     margin-left: 2.5rem;
     height: 20rem;
     width: 24rem;
-    font-size: 1.5rem;
+}
+
+.deletes-note-button {
+    margin-left: 24rem;
+}
+
+
+@media only screen and (max-width: 600px) {  /* Phone and smaller. */
+
+    .notes-container {
+        margin-left: 0rem;
+    }
+
+    #added-notes-list {
+        margin-left: -2rem;
+    }
+
+    .deletes-note-button {
+        margin-left: 12rem;
+    }
+
+    #adds-new-note-button {
+        margin-right: 42rem;
+
+    }
 }

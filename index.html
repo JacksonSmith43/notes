@@ -20,14 +20,14 @@
         <div class="text">
 
             <!--<label class="note-title-input"></label>-->
-            <input class="title-input" type="title-input" placeholder="Title of the Note..." aria-label="Title input of note.">
+            <input id="title-input" type="title-input" placeholder="Title of the Note..."
+                aria-label="Title input of note.">
             <br>
-            <input class="note-input" type="note-input" placeholder="Enter Note..." aria-label="Input of note.">
-
-            <ul class="added-notes-list"></ul>
+            <textarea id="note-input" placeholder="Enter Note..." aria-label="Input of note."></textarea><!-- With an input one only has one line, to input something, here you can use multiple ones. -->
+            <ul id="added-notes-list"></ul>
         </div>
 
-        <button class="adds-new-note-container" aria-label="Adds the inputed note.">
+        <button id="adds-new-note-button" aria-label="Adds the inputed note.">
             <svg class="adds-new-note" xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" /></svg> <!-- Plus symbol. -->
         </button>
 
