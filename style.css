@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    display: flex;
+
 }
 
 .notes-container {
@@ -8,7 +10,7 @@ body {
     justify-content: center;
 
     margin: 5rem 45rem 4rem 45rem;
-    padding: 1rem 5rem 5rem 5rem;
+    padding: 1rem 3rem 3rem 3rem;
 }
 
 .title-input {
@@ -16,21 +18,37 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     border-style: none;
-
     font-size: 1.5rem;
     padding: 1rem 5rem 1rem 5rem;
+    outline: none;
 
 }
 
-.note-input{
+.note-input {
     border-style: none;
     margin-top: 1rem;
     padding: 1rem 5rem 8rem 5rem;
     font-size: 1.5rem;
+    outline: none;
+}
+
+
+.adds-new-note-container {
+    height: 2rem;
+    margin-top: 14rem;
 
 }
 
-.new-note-container{
+.delete-note-container{
+    height: 2rem;
+    margin-top: 14rem;
+    margin-left: 1rem;
+
+}
+
+.added-notes-container{
+    color: red;
+    background-color: red;
     display: flex;
-    justify-content: end;
+    justify-content: start;
 }
