@@ -8,9 +8,7 @@ body {
     background-color: white;
     display: flex;
     justify-content: center;
-
     margin: 5rem 45rem 4rem 45rem;
-    padding: 1rem 3rem 3rem 3rem;
 }
 
 .title-input {
@@ -27,7 +25,7 @@ body {
 .note-input {
     border-style: none;
     margin-top: 1rem;
-    padding: 1rem 5rem 8rem 5rem;
+    padding: 1rem 5rem 4rem 5rem;
     font-size: 1.5rem;
     outline: none;
 }
@@ -35,20 +33,27 @@ body {
 
 .adds-new-note-container {
     height: 2rem;
-    margin-top: 14rem;
-
+    margin-top: 6rem;
+    margin-right: 4rem;
 }
 
-.delete-note-container{
+/*.delete-note-container {
     height: 2rem;
     margin-top: 14rem;
     margin-left: 1rem;
 
+}*/
+
+li:nth-child(even) {
+    /* Zebra style. */
+    background-color: rgb(186, 182, 182);
 }
 
-.added-notes-container{
-    color: red;
-    background-color: red;
-    display: flex;
-    justify-content: start;
+.added-notes-list {
+    color: black;
+    list-style: none;
+    margin-left: 2.5rem;
+    height: 20rem;
+    width: 24rem;
+    font-size: 1.5rem;
 }
