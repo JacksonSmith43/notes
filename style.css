@@ -60,6 +60,11 @@ li:nth-child(even) {
     width: 24rem;
 }
 
+li:hover {
+    background-color: rgb(230, 225, 225);
+}
+
+
 .deletes-note-button {
     margin-left: 24rem;
 }
